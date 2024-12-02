@@ -16,7 +16,6 @@ body {
 @font-face {
     font-family: "DDC";
     src: url(../FICHATECNICAJHONALEX/fonts/DCC.otf);
-    
 } 
 
 @font-face {
@@ -27,11 +26,12 @@ body {
 /* ------------ SECCION HEADER --------------- */
 
 .fondoportada {
-    background-image: url(../images/fondoportada.jpg);
+    background: url(/images/fondoportada.jpg);
+    background-image: url(../FICHATECNICAJHONALEX/images/fondoportada.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
-    transform: translateZ(-1px);
+/*     transform: translateZ(-1px); */
     display: flex;
     justify-content: center;
 }
