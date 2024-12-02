@@ -14,15 +14,9 @@ body {
 }
 
 @font-face {
-    font-family: "DDC";
-    src: url(/fonts/DCC.otf);
-} 
-
-.rubik-glitch-regular {
-    font-family: "Rubik Glitch", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
+    font-family: "Rubik Glitch";
+    src: url(/fonts/RubikGlitch-Regular.ttf);
+}
 
 @font-face {
     font-family: "Montserrat", sans-serif;
@@ -44,17 +38,18 @@ body {
 
 .textoportada {
     position: absolute;
-    font-family: "Rubik Glitch", system-ui;
+    font-family: "Rubik Glitch";
 /*     font-family: "DDC"; */
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    font-size: 20vw;
+    font-size: 11.5vw;
     z-index: -1;
+    padding-top: 5vw;
 }
 
 .textoportadapequeño {
     position: absolute;
-    font-family: "Rubik Glitch", system-ui;
+    font-family: "Rubik Glitch";
 /*     font-family: "DDC"; */
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
