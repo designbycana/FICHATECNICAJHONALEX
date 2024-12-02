@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: "DDC";
-    src: url(/fonts/DCC-Ash.ttf);
+    src: url(../fonts/DCC-Ash.ttf);
     
 } 
 
@@ -27,8 +27,8 @@ body {
 /* ------------ SECCION HEADER --------------- */
 
 .fondoportada {
-    background-color: rgb(0, 0, 0);
-    background: url(/images/fondoportada.jpg) center;
+    background: url(images/fondoportada.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
     transform: translateZ(-1px);
