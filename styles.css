@@ -43,22 +43,35 @@ body {
 
 .textoportada {
     position: absolute;
+<<<<<<< HEAD
 /*     font-family: "Rubik"; */
     font-family: "DDC";
+=======
+    font-family: "Montserrat", sans-serif;
+/*     font-family: "DDC"; */
+>>>>>>> cecf87e1bb517220a9ed82ff2ec8b41787da2997
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    font-size: 20vw;
+    font-size: 12vw;
     z-index: -1;
+    padding-top: 5vw;
+    font-weight: bold;
 }
 
 .textoportadapequeño {
     position: absolute;
+<<<<<<< HEAD
 /*     font-family: "Rubik"; */
     font-family: "DDC";
+=======
+    font-family: "Montserrat", sans-serif;
+/*     font-family: "DDC"; */
+>>>>>>> cecf87e1bb517220a9ed82ff2ec8b41787da2997
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
     font-size: 5vw;
     z-index: -1;
+    padding-top: 2vw;
 }
 
 .gifjhonalexportada {
