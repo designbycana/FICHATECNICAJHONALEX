@@ -40,7 +40,7 @@ body {
     width: 90vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    z-index: -1;
+    z-index: 0;
     padding-top: 10vw;
     justify-content: center;
     justify-items: center;
@@ -52,7 +52,7 @@ body {
     width: 30vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    z-index: -1;
+    z-index: 0;
     padding-top: 2vw;
 }
 
@@ -71,8 +71,8 @@ body {
 /* ------------ SECCION INFORMACIÓN --------------- */
 
 .contenedorinfo{
-    background-color: bisque;
     border: 1px solid #a1ff25;
+    align-items: center;
 }
 
 .info {
@@ -111,12 +111,32 @@ body {
 .contenedorvistas {
     background-color: #a1ff25;
     padding: 2vw 0 2vw 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
 }
 
 .vistasjhonalex{
     padding: 2vw 2vw 2vw 2vw;
     height: 20vw;
-    margin-left: 4vw;
+}
+
+/* ------------ SECCION COLORES --------------- */
+
+.contenedorcolores {
+    display: flex;
+    height: 24vw;
+    border: 2px solid #a1ff25;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.paletacolores{
+    height: 15vw;
 }
 
 
@@ -204,20 +224,48 @@ body {
 
 /* ------------ SECCION FOOTER --------------- */
 
+.fondoportada2 {
+    height: 13vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .textoportada2 {
     position: absolute;
-    font-family: "Rubik";
+    width: 30vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    font-size: 8vw;
-    z-index: -1;
+    padding-top: 2.5vw;
 }
 
 .textoportadapequeño2 {
     position: absolute;
-    font-family: "Rubik";
+    width: 10vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    font-size: 2vw;
-    z-index: -1;
 }
+
+.footerdesignbycana {
+    height: 12vw;
+    align-items: center;
+}
+
+.textocreditos{
+    text-align: right;
+    font-size: 1.5vw;
+    padding: 1vw 2vw 5vw 2vw;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+}
+
+.logocana {
+    height: 10vw;
+}
+
+.logocana:hover {
+    filter: brightness(150%);
+    transition-duration: 0.2s;
+}
+

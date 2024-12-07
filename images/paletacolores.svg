@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1729.54 355.7">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #f2eee7;
+      }
+
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        stroke: #1a1a1a;
+        stroke-miterlimit: 10;
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-7, .cls-3, .cls-8 {
+        font-family: MontserratRoman-Bold, Montserrat;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-8 {
+        font-size: 21.19px;
+      }
+
+      .cls-4 {
+        fill: #ef6a90;
+      }
+
+      .cls-7, .cls-3 {
+        font-size: 28.26px;
+      }
+
+      .cls-9 {
+        fill: #a1ff25;
+      }
+
+      .cls-5 {
+        fill: #fffdae;
+      }
+
+      .cls-10, .cls-6 {
+        fill: #1a1a1a;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <rect class="cls-9" x=".6" y="1.2" width="311.71" height="352.8"/>
+        <path class="cls-10" d="m311.71,1.8v351.61H1.2V1.8h310.51m1.2-1.2H0v354h312.91V.6h0Z"/>
+      </g>
+      <rect class="cls-4" x="354.01" y=".6" width="312.91" height="354"/>
+      <rect class="cls-5" x="708.02" y=".6" width="312.91" height="354"/>
+      <rect class="cls-1" x="1062.02" y=".6" width="312.91" height="354"/>
+      <rect class="cls-6" x="1416.03" y="1.1" width="312.91" height="354"/>
+      <g>
+        <text class="cls-7" transform="translate(11.31 270.73)"><tspan x="0" y="0">#A1FF25</tspan></text>
+        <text class="cls-8" transform="translate(11.31 312.81)"><tspan x="0" y="0">RGB: 161 255 37</tspan><tspan x="0" y="25.43">CMYK: 44% 0% 100% 0%</tspan></text>
+      </g>
+      <g>
+        <text class="cls-7" transform="translate(365.31 270.73)"><tspan x="0" y="0">#EF6A90</tspan></text>
+        <text class="cls-8" transform="translate(365.31 312.81)"><tspan x="0" y="0">RGB: 239 106 144</tspan><tspan x="0" y="25.43">CMYK: 0% 71% 19% 0%</tspan></text>
+      </g>
+      <g>
+        <text class="cls-7" transform="translate(719.31 270.73)"><tspan x="0" y="0">#FFFDAE</tspan></text>
+        <text class="cls-8" transform="translate(719.31 312.81)"><tspan x="0" y="0">RGB: 255 253 174</tspan><tspan x="0" y="25.43">CMYK: 4% 0% 41% 0%</tspan></text>
+      </g>
+      <g>
+        <text class="cls-7" transform="translate(1073.31 270.73)"><tspan x="0" y="0">#F2EEE7</tspan></text>
+        <text class="cls-8" transform="translate(1073.31 312.81)"><tspan x="0" y="0">RGB: 242 238 231</tspan><tspan x="0" y="25.43">CMYK: 6% 6% 10% 0%</tspan></text>
+      </g>
+      <g>
+        <text class="cls-3" transform="translate(1427.31 270.73)"><tspan x="0" y="0">#1A1A1A</tspan></text>
+        <text class="cls-2" transform="translate(1427.31 312.81)"><tspan x="0" y="0">RGB: 26 26 26</tspan><tspan x="0" y="25.43">CMYK: 76% 67% 61% 83%</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
