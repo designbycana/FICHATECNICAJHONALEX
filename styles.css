@@ -202,33 +202,48 @@ body {
 }
 
 .gifpricipioanimacion {
-    height: 15vw;
+    height: 17vw;
 
 }
 
 /* ------------ SECCION ANIMACIÓN ESCENARIO--------------- */
 
 .cajaanimacionescenario {
+    background-color: #a1ff25;
     display: flex;
     justify-items: center;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 6vw 1vw 6vw 1vw;
+    padding: 2vw 0vw 2vw 0vw;
+    margin: 3vw 0 0vw 0;
+}
+
+.textoanimacionescenario {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    align-content: center;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-weight: 450;
+    text-align: justify;
+    padding: 0 2vw 0 2vw;
 }
 
 .gifanimacionescenario {
-    height: 53vw;
+    height: 30vw;
 
 }
 
 /* ------------ SECCION FOOTER --------------- */
 
 .fondoportada2 {
-    height: 13vw;
+    height: 18vw;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    border: solid 2px #a1ff25;
+    margin: 0 0 5vw 0;
 }
 
 .textoportada2 {
@@ -236,7 +251,6 @@ body {
     width: 30vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
-    padding-top: 2.5vw;
 }
 
 .textoportadapequeño2 {
@@ -244,11 +258,13 @@ body {
     width: 10vw;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 20px rgba(185, 255, 164, 0.726);
+    padding-bottom: 8vw;
 }
 
 .footerdesignbycana {
-    height: 12vw;
+    height: 15vw;
     align-items: center;
+    padding-bottom: 2vw;
 }
 
 .textocreditos{
@@ -262,10 +278,82 @@ body {
 
 .logocana {
     height: 10vw;
+    filter: saturate(-100%);
 }
 
 .logocana:hover {
     filter: brightness(150%);
     transition-duration: 0.2s;
+}
+
+
+
+/* ------------ MEDIA QUERIES --------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 768px) {
+    .info {
+        font-size: 3vw;
+        padding: 0 3vw 5vw 3vw;
+    }
+    
+    .textoinfoprincipal{
+        font-size: 3.5vw;
+    }
+
+    .textohuesosjhonalex {
+        font-size: 2vw;
+        padding: 3vw 3vw 3vw 2vw;
+    }
+
+    .paletacolores{
+        height: 18vw;
+        padding: 1vw 0 1vw 0;
+    }
+
+    .tituloanimaciones {
+        font-size: 3vw;
+    }
+    
+    .titulogifprincipioanimacion {
+        font-size: 2vw;
+    }
+    
+    .textogifprincipioanimacion {
+        font-size: 2vw;
+    }
+    
+    .gifpricipioanimacion {
+        height: 45vw;
+    }
+
+    .textoanimacionescenario {
+        font-size: 2vw;
+        text-align: justify;
+        padding: 0 2vw 0 2vw;
+    }
+    
+    .gifanimacionescenario {
+        height: 28vw;
+    }
+
+    .textocreditos{
+        font-size: 2vw;
+        padding: 1vw 2vw 5vw 2vw;
+    }
+    
+    .logocana {
+        height: 12vw;
+        filter: saturate(-100%);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .gifpricipioanimacion {
+        height: 25vw;
+    }
+
 }
 
