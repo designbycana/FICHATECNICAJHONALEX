@@ -108,6 +108,17 @@ body {
 
 /* ------------ SECCION VISTAS --------------- */
 
+.titulovistas {
+    background-color: #a1ff25;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding: 2vw 0vw 0vw 0vw;
+}
+
 .contenedorvistas {
     background-color: #a1ff25;
     padding: 2vw 0 2vw 0;
@@ -124,6 +135,16 @@ body {
 }
 
 /* ------------ SECCION COLORES --------------- */
+
+.titulocolores {
+    justify-items: center;
+    color: #a1ff25;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding: 2vw 0vw 0vw 0vw;
+}
 
 .contenedorcolores {
     display: flex;
